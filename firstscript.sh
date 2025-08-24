@@ -1,6 +1,9 @@
 #!/bin/bash
+echo "**********SETTING UP DEBUG MODE******"
 set -x # Setting up debug mode
-df -h #To list the volumes in VM
+echo "********** To list the volumes in VM ******"
+df -h
+echo "********** To list the Free memory space in VM ******"
 free -g
 nproc # To See the Number of processor  in VM
 top #To Verify all service parameters running
