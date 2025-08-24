@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "**********SETTING UP DEBUG MODE******"
-set -x # Setting up debug mode
+# set -x # Setting up debug mode
 echo "********** To list the volumes in VM ******"
 df -h
 echo "********** To list the Free memory space in VM ******"
